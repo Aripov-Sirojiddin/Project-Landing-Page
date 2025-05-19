@@ -75,11 +75,14 @@ footer{
     padding: 0.4rem 1.6rem 0.4rem;
 }
 
+.white-btn-border {
+    border: 2px solid white;
+}
+
 .blue-button:hover{
     background: #2f72dc;
     cursor: pointer;
 }
-
 .info-boxes {
     display: flex;
     flex-direction: column;
@@ -125,4 +128,21 @@ footer{
 
 .testimonial .author {
     font-weight: bold;
+}
+
+.call-to-action {
+    color: white;
+    margin-block: 6rem;
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    padding: 1rem 6rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.title {
+    color:#F9FAF8;
+    font-size: large;
+    font-weight: bolder;
 }
