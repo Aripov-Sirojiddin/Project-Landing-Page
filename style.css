@@ -109,3 +109,20 @@ footer{
 .boxes p {
     color: #727171;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background: #E5E7EB;
+    padding: 4rem 17.87rem 4rem;
+}
+.testimonial .quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.testimonial .author {
+    font-weight: bold;
+}
