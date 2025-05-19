@@ -2,8 +2,8 @@
 ##### Foundations Course
 
 This is a HTML and CSS practice project from The Odin Project.\
-This website is built for educational purposes all rights belong to their rightful owners.
-
+This website is built for educational purposes all rights belong to their rightful owners. \
+View Final Page: https://aripov-sirojiddin.github.io/Project-Landing-Page/ \
 Focus:
 * Alligning HTML elements dynamically for different screen sizes.
 
