@@ -7,7 +7,7 @@ body {
     justify-content: space-between;
 }
 body > * {
-    padding-inline: 10rem;
+    padding-inline: 13rem;
 }
 nav {
     padding-block: 20px;
@@ -42,4 +42,40 @@ footer{
     justify-content: center;
     padding-block: 2rem;
     font-size: 15px;
+}
+
+.motd {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding-block: 6rem; 
+    align-items: center;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+.motd-title{
+    font-weight: 900;
+    font-size: 45px;
+}
+.motd-subtext {
+    margin-block: 15px;
+    font-size: 18px;
+    color: #d2d2d2;
+}
+.motd img {
+    max-height: 250px;
+}
+.blue-button {
+    background: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.4rem 1.6rem 0.4rem;
+}
+
+.blue-button:hover{
+    background: #2f72dc;
+    cursor: pointer;
 }
